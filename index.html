@@ -221,10 +221,9 @@ href="https://github.com/mjdileep/Vectorflow/blob/main/vectorflow/transformers.p
 <li><p><a
 href="https://github.com/mjdileep/Vectorflow/blob/main/vectorflow/transformers.py#L230" target="_blank">Transformer</a></p></li>
 </ul></li>
-<li><p>Developed the forward passes while caching the computations
+<li><p>Developed the forward passes while caching states(Instead of constructing the computation graph, cached states were used to calculate the gradients).
 graph.</p></li>
-<li><p>Implemented backward passes with backprop algorithm(using the
-computations graph which was cached during the forward pass)</p></li>
+<li><p>Implemented backward passes with backprop algorithm(using the states which were cached during the forward pass)</p></li>
 </ul></li>
 </ul>
 <ul>
